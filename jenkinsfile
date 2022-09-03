@@ -4,10 +4,8 @@ pipeline{
  stages{
    stage("git checkout"){
     steps{
-    
+      git 'https://github.com/amit-burnwal/Amitproject1.git'
     }
    }
  }
-
-
 }
